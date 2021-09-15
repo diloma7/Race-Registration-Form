@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Race registration</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Race registration</h1>
+    <form>
+      <div class="firstlastname">
+        <label class="info-labels" for="firstName">First Name: </label>
+        <input type="text" name="firstName" placeholder="First name" required>
+        <br />
+        <label class="info-labels" for="lastName">Last Name: </label>
+        <input type="text" name="lastName" placeholder="Last name" required>
+      </div>
+
+      <div class="firstlastname">
+
+        <label class="contact-labels" for="email">Email: </label>
+        <input type="email" name="email" placeholder="E-mail" class="email" required>
+        <br>
+        <label class="contact-labels" for="password">Password: </label>
+        <input type="password" name="password" placeholder="Password" class="password">
+
+      </div>
+
+      <div class="radio-btn">
+        <input type="radio" name="category" class="input-staff">
+        <label for="Fun">Fun Run 5 km</label>
+
+        <input type="radio" name="category" class="input-staff">
+        <label for="Half">Half Marathon</label>
+
+        <input type="radio" name="category" class="input-staff">
+        <label for="full">Full Marathon</label>
+      </div>
+
+      <div class="combo-box">
+        <label for="age">Age Range:</label>
+        <select id="age">
+          <option value="Fun Run">16-20</option>
+          <option value="Half Run">20-30</option>
+          <option value="Full Run">30+</option>
+        </select>
+      </div>
+      <div class="register-btn">
+        <button type="submit">Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
+
+
+<!-- title: race registration
+on the form: h1 title
+first name surname in the same div
+paragraph
+own div radio button: -fun run 5km
+-half marathon
+-full marathon
+div email, password
+combo box select age: 16 to 20 for fun run
+20 to 30 for -half run
+30 to more for full run.
+
+finally register button.
+firstname surname email must be required -->
